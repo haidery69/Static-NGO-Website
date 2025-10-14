@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="contact-body">
+    <!-- Header of the website starting -->
+    <header>
+        <!-- website logo -->
+        <h1>Charity.</h1>
+        <input type="checkbox" id="check">
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+        <div style="display: flex; gap: 2rem;">
+            <button>
+                <a href="donate.html">Donate</a>
+            </button>
+            <label for="check"><img src="./Imgs/menu-icon.png"></label>
+        </div>
+    </header>
+    <!-- Header of the website Ending -->
+
+    <!-- Starting Photo of the page -->
+    <section class="start-photo">
+        <img src="./Imgs/contact-background.png" alt="black">
+    </section>
+
+    <!-- Main Section of the website Starting -->
+    <section class="contact-main">
+        <!-- Form to enter contact Information -->
+        <form action="#" class="col form">
+            <input type="text" id="name" placeholder="Name" required><br>
+            <input type="email" id="email" placeholder="Email" required><br>
+            <input type="tel" id="contact" placeholder="Contact" required><br>
+            <textarea id="msg" cols="25" rows="10" placeholder="Message"></textarea><br>
+            <input type="submit">
+        </form>
+        <!-- Contact Information and Map image -->
+        <aside class="col">
+            <!-- Contact information -->
+            <div class="contact-info">
+                <div>
+                    <img src="./Imgs/address-icon.png" alt="address"/>
+                    <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 0;">
+                        <h3>Location</h3>
+                        <p>Lahore</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./Imgs/email-icon.png" alt="">
+                    <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 0;">
+                        <h3>Email</h3>
+                        <p>charity123@gmail.com</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./Imgs/call-icon.png" alt="">
+                    <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 0;">
+                        <h3>Phone</h3>
+                        <p>031-12345678</p>
+                    </div>
+                </div>
+                <!-- Map Image -->
+                <div>
+                    <img src="./Imgs/map.jpeg" alt="map" class="map">
+                </div>
+            </div>
+
+        </aside>
+    </section>
+    <!-- Main Section of the website Ending -->
+
+    <!-- Footer of the website starting -->
+    <footer>
+        <div class="footer-row">
+            <div class="footer-col-1">
+                <h1>About Us</h1>
+                <p>Empowering women and aiding the impoverished, we're dedicated to fostering strength, independence, and positive change in vulnerable communities worldwide.</p>
+            </div>
+            <div class="footer-col-2">
+                <h1>Subscribe</h1>
+                <input type="email" placeholder="Email">
+                <button>Subscribe</button>
+            </div>
+            <div class="footer-col-3">
+                <h1>Get In Touch</h1>
+                <div>
+                    <img src="./Imgs/address-icon.png" alt="address"/>
+                    <p>Lahore</p>
+                </div>
+                <div>
+                    <img src="./Imgs/email-icon.png" alt="">
+                    <p>charity123@gmail.com</p>
+                </div>
+                <div>
+                    <img src="./Imgs/call-icon.png" alt="">
+                    <p>031 12345678</p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center; background-color: black; width: 100%;">
+            <p>Charity. 2024 &#169; All Rights Reserved </p>
+        </div>
+    </footer>
+    <!-- Footer of the website ending -->
+    
+</body>
+<script src="./js/contact.js"></script>
+</html>
